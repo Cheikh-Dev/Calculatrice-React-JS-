@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import { btns, BTN_ACTIONS } from "./btnConfig";
-import "../../index.css"; // Assurez-vous que le fichier CSS principal est importé
+import "../../index.css";
 
 const Calculator = () => {
   const btnsRef = useRef(null);

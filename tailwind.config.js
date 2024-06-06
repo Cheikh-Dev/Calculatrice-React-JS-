@@ -1,6 +1,6 @@
 // tailwind.config.js
 module.exports = {
-  darkMode: "class", // Ajoutez cette ligne
+  darkMode: "class",
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
