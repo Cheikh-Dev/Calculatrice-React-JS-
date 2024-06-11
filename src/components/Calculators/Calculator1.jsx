@@ -84,8 +84,8 @@ const Calculator = () => {
   };
 
   return (
-    <div className="calculator px-5 h-screen w-[400px] overflow-hidden rounded-3xl bg-white shadow-md flex flex-col justify-end dark:bg-main">
-      <div className="calculator__result relative text-right flex flex-col items-end justify-end mb-18">
+    <div className="calculator px-5 h-screen w-[350px] h-[600px] overflow-hidden rounded-3xl bg-gray-100 shadow-md flex flex-col justify-end dark:bg-main">
+      <div className="calculator__result relative text-right flex flex-col items-end justify-end mb-16">
         <div
           ref={expRef}
           className="-mb-10 calculator__result__exp text-[3.5rem] leading-[1] transform-origin-bottom-right transition-transform duration-300 text-main dark:text-white "

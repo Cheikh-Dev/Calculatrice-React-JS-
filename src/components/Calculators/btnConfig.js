@@ -105,6 +105,6 @@ export const btns = [
     display: "=",
     action: BTN_ACTIONS.CALC,
     class:
-      "btn__op rounded-full text-white bg-gradient-to-r from-[#cd6e36] to-[#d400ff]",
+      "m-2 btn__op rounded-full text-white bg-gradient-to-r from-[#cd6e36] to-[#d400ff]",
   },
 ];
